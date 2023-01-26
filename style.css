@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-light {
+    background-color: hwb(300 22% 38%) !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.banner {
+    /* height:400px; */
+    background-color: hwb(300 22% 38%) !important;
+
+}
+
+.best {
+    margin-top: 80px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
+.wach{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
+.wach button{
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    background-color:hwb(300 22% 38%) !important; 
+    color: rgb(255, 255, 255);
+}
+.wach button:hover{
+    transition: all 1s ease;
+    transform: scale(1.2);
+    color: rgb(30, 30, 46);
+}
+
